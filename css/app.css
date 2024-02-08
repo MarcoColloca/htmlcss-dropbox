@@ -47,8 +47,22 @@ img{
 
 
 
+/* HEADER */
 
 
+nav .row{
+    justify-content: space-between;
+    padding: 20px;
+}
+
+[class^=header__nav] li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header__nav{
+    color: gray;
+}
 
 
 
@@ -87,4 +101,5 @@ img{
 .debug .header__nav{
     min-height: 20px;
     background-color: red;
+    border: black solid 1px;
 }
