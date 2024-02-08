@@ -62,6 +62,12 @@ button{
     padding: 7px 15px;
 }
 
+main h1{
+    font-size: 85px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
 
 
 
@@ -102,9 +108,11 @@ nav .row{
 
 
 
+/* MAIN */
 
-
-
+.hero{
+    background-color: #b4d0e7;
+}
 
 
 
