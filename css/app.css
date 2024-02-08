@@ -155,22 +155,22 @@ nav .row{
 /* DEBUG */
 
 
-.debug .header__nav{
+/* .debug .header__nav{
     min-height: 20px;
     background-color: rgb(209, 209, 209);
     border: black solid 1px;
-}
+} */
 
 
-.debug .conteine{
+/* .debug .conteiner{
     border: red solid 2px;
 }
 
 
-.debug .col4{
+.debug .col-4{
     border: rgb(0, 255, 13) solid 2px;
 }
 
-.debug .col8{
+.debug .col-8{
     border: rgb(255, 0, 157) solid 2px;
-}
+} */
