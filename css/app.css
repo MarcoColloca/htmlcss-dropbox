@@ -21,6 +21,7 @@ img{
 
 
 
+
 /* LAYOUT */
 
 .conteiner-lg{
@@ -54,6 +55,9 @@ img{
 }
 
 
+
+
+
 /* STYLE */
 
 button{
@@ -74,6 +78,31 @@ main h1{
     font-size: 44px;
     font-weight: bold;
     font-family: sans-serif;
+}
+
+* h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+/* UTILITY */
+
+.color-blue{
+    color: blue;
+}
+
+.decor-underline{
+    text-decoration: underline;
+}
+
+.weight-bold{
+    font-weight: bold;
 }
 
 
@@ -143,13 +172,16 @@ nav .row{
 }
 
 
+
 /* Purchase Section */
 
+/* Title */
 .purchase__title{
     padding: 20px 0px;
     margin-top: 50px;
 }
 
+/* Select */
 .purchase__select{
     padding: 50px 0px;
 }
@@ -160,8 +192,35 @@ nav .row{
     display: inline-block;
 }
 
+/* Vertical Cards */
+
+.purchase__cards .row{
+    justify-content: space-between;
+}
 
 
+
+.purchase__card--vertical{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.purchase__card--vertical__title{
+    border: solid 1px grey;
+}
+
+.purchase__card--vertical__body{
+    border-right: solid 1px grey;
+    border-left: solid 1px grey;
+    padding: 20px;
+}
+
+.purchase__card--vertical__description{
+    border-right: solid 1px grey;
+    border-left: solid 1px grey;
+    border-bottom: solid 0px 1px 1px 0px grey;
+}
 
 
 
