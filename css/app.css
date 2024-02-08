@@ -60,6 +60,7 @@ button{
     color: white;
     background-color:  #0061ff;
     padding: 7px 15px;
+    font-family: sans-serif;
 }
 
 main h1{
@@ -69,7 +70,11 @@ main h1{
 }
 
 
-
+* h2{
+    font-size: 44px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 
 
 
@@ -137,6 +142,8 @@ nav .row{
     font-size: 40px;
 }
 
+
+/* Purchase Section */
 
 
 
