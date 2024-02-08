@@ -64,7 +64,15 @@ nav .row{
     color: gray;
 }
 
+.header__nav__dropbox--list, 
+.header__nav__user--list{
+    display: flex;
+    align-items: center;
+}
 
+.logo-small{
+    width: 130px;
+}
 
 
 
@@ -100,6 +108,6 @@ nav .row{
 
 .debug .header__nav{
     min-height: 20px;
-    background-color: red;
+    background-color: rgb(209, 209, 209);
     border: black solid 1px;
 }
