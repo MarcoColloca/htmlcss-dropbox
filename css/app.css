@@ -110,13 +110,32 @@ nav .row{
 
 /* MAIN */
 
+
+/* Hero's Section */
+
 .hero{
     background-color: #b4d0e7;
+}
+
+.hero__title{
+    padding: 65px 0;
 }
 
 
 
 
+.hero .col-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 20px;
+}
+
+.hero__content span{
+    margin-top: auto;
+    font-size: 40px;
+}
 
 
 
@@ -143,6 +162,15 @@ nav .row{
 }
 
 
-.debug .conteiner{
+.debug .conteine{
     border: red solid 2px;
+}
+
+
+.debug .col4{
+    border: rgb(0, 255, 13) solid 2px;
+}
+
+.debug .col8{
+    border: rgb(255, 0, 157) solid 2px;
 }
