@@ -43,3 +43,48 @@ img{
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+
+.debug .header__nav{
+    min-height: 20px;
+    background-color: red;
+}
