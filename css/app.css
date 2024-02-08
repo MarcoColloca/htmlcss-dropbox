@@ -45,6 +45,14 @@ img{
 }
 
 
+.col-8{
+    width: calc(100%/3*2)
+}
+
+.col-4{
+    width: calc(100%/3);
+}
+
 
 /* STYLE */
 
@@ -124,4 +132,9 @@ nav .row{
     min-height: 20px;
     background-color: rgb(209, 209, 209);
     border: black solid 1px;
+}
+
+
+.debug .conteiner{
+    border: red solid 2px;
 }
