@@ -22,3 +22,24 @@ img{
 
 
 /* LAYOUT */
+
+.conteiner-lg{
+    max-width: 1919px;
+    margin: 0 auto;
+}
+
+
+.conteiner{
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.conteiner-sm{
+    max-width: 1001px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
