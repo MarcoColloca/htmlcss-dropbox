@@ -258,6 +258,7 @@ nav .row{
     border-left: solid 1px grey;
     border-bottom: solid 1px grey;
     padding: 0px 25px;
+    flex-grow: 1;
 }
 
 .purchase__card--vertical__description i{
