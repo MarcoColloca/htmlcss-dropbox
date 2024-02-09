@@ -70,6 +70,13 @@ button{
     font-family: sans-serif;
 }
 
+.button{
+    color: white;
+    background-color:  #0061ff;
+    padding: 7px 15px;
+    font-family: sans-serif;
+}
+
 main h1{
     font-size: 85px;
     font-weight: bold;
