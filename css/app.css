@@ -495,6 +495,42 @@ width: 100%;
 
 
 
+/* Business-trial Section */
+
+.business-trial .conteiner-sm .row{
+    padding: 100px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.business-trial .conteiner-sm .row .col-5, .col-7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.business-trial__title{
+    color: #61082b;
+}
+
+
+.business-trial__button .button{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* DEBUG */
@@ -535,7 +571,7 @@ width: 100%;
 } */
 
 
-.debug .business-trial .col-7, .col-5{
+/* .debug .business-trial .col-7, .col-5{
     border: solid 1px black;    
     min-height: 200px;
-}
+} */
