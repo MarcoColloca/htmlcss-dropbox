@@ -184,6 +184,10 @@ nav .row{
 
 /* Purchase Section */
 
+.purchase{
+    margin-bottom: 40px;
+}
+
 /* Title */
 .purchase__title{
     padding: 20px 37px;
@@ -202,6 +206,7 @@ nav .row{
 }
 
 /* Vertical Cards */
+
 
 .purchase__cards .row{
     justify-content: space-between;
@@ -308,7 +313,7 @@ padding: 25px;
     border-right: solid 1px grey;
     border-left: solid 1px grey;
     border-bottom: solid 1px grey;
-    padding: 20px 25px;
+    padding: 0px 25px 20px 25px;
     flex-grow: 1;   
 }
 
