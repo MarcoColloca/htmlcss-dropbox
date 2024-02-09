@@ -30,6 +30,10 @@ img{
     padding: 0 12px;
 }
 
+.conteiner-lg{
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
 .conteiner{
     max-width: 1240px;
@@ -131,6 +135,38 @@ main h1{
 
 .weight-bold{
     font-weight: bold;
+}
+
+.bg-green{
+    background-color: #a2d39b;
+}
+
+.bg-bordeaux{
+    background-color: #61082b;
+}
+
+.bg-red{
+    background-color: #d5001f;
+}
+
+.bg-azure{
+    background-color: #0093ce;
+}
+
+.bg-skyblue{
+    background-color: #b4d0e7;
+}
+
+.bg-blue{
+    background-color: #0D2481;
+}
+
+.bg-yellow{
+    background-color: #ffd830;
+}
+
+.bg-gray{
+    background-color: #f5f5f5;
 }
 
 
@@ -398,20 +434,49 @@ width: 100%;
 
 /* Clients Section */
  
+.business-clients--logos{
+    display: flex;
+}
 
 
+.square{
+    height: 640px;
+    width: 640px;
+}
 
 
+.business-clients--logos .square .col-6 img{
+    max-width: 150px;
+    max-height: 120px;
+    filter: invert(1);
+}
+
+.business-clients--logos .square .bg-green:first-child{
+    border: solid #d1e9cd 20px;
+}
+
+.square .col-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
 
 
+.square .col-12{
+    padding: 0 50px;
+}
 
 
+.business-clients--logos .square .col-12 > *{
+    padding: 40px 0;
+}
 
 
-
-
-
-
+.business-clients--logos .square .col-12 p:last-child{
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 
 
@@ -448,4 +513,9 @@ width: 100%;
 
 /* .debug .purchase__card--horizontal__title{
     min-width: 950px;
+} */
+
+
+/* .debug .square{
+    border: solid 1px rgb(41, 41, 41);
 } */
