@@ -125,6 +125,7 @@ main h1{
 nav .row{
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
 }
 
 [class^=header__nav] li{
