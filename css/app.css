@@ -434,6 +434,20 @@ width: 100%;
 
 /* Clients Section */
  
+.business-clients__title{
+   padding-bottom: 50px;
+}
+
+.business-clients__hyperlink{
+    display: block;
+    padding-bottom: 100px;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
 .business-clients--logos{
     display: flex;
 }
