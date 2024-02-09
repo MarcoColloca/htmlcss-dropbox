@@ -162,7 +162,7 @@ nav .row{
 /* MAIN */
 
 
-/* Hero's Section */
+/* Hero Section */
 
 .hero{
     background-color: #b4d0e7;
@@ -330,13 +330,37 @@ width: 100%;
 
 
 
+/* Partnership Section */
+
+.partnership{
+    margin: 30px 0;
+    padding: 30px 0;
+}
 
 
+.partnership .col-7{
+    padding: 10px;
+    padding-left: 25px;
+}
 
+.partnership .col-5{
+    padding: 60px;
+}
 
+.partnership .col-5 h3{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
 
+.partnership .col-5 p{
+    margin-bottom: 20px;
+}
 
-
+.partnership .col-5 .button{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
 
 
 
