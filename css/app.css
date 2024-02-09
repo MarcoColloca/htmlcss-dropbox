@@ -249,8 +249,7 @@ nav .row{
 }
 
 .purchase__card--vertical__button .button{
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 10px 35px;
 }
 
 .purchase__card--vertical__description{
@@ -263,6 +262,54 @@ nav .row{
 
 .purchase__card--vertical__description i{
 color: #0061ff;
+}
+
+/* Horizontal Card */
+
+.purchase__card--horizontal{
+padding: 25px;
+}
+
+
+.purchase__card--horizontal__title{
+    border: solid 1px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.purchase__card--horizontal__title > p{
+    margin: 0;
+    padding: 10px;
+}
+
+
+.purchase__card--horizontal__body{
+    border-right: solid 1px grey;
+    border-left: solid 1px grey;
+    padding: 40px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.purchase__card--horizontal__body__text{
+    line-height: 40px;
+}
+
+.purchase__card--horizontal__button .button{
+    padding: 10px 35px;
+}
+
+
+
+.purchase__card--horizontal__description{
+    border-right: solid 1px grey;
+    border-left: solid 1px grey;
+    border-bottom: solid 1px grey;
+    padding: 20px 25px;
+    flex-grow: 1;   
 }
 
 
@@ -294,3 +341,8 @@ color: #0061ff;
 /* .debug .col-8{
     border: rgb(255, 0, 157) solid 2px;
 }  */
+
+
+.debug .purchase__card--horizontal__title{
+    min-width: 950px;
+}
