@@ -55,17 +55,22 @@ img{
     width: calc(100%/3);
 }
 
-.col-7{
-   width: calc(100%/12*7); 
-}
 
 .col-5{
     width: calc(100%/12*5);
 }
 
+.col-7{
+    width: calc(100%/12*7); 
+}
 
+.col-6{
+    width: calc(100%/2);
+}
 
-
+.col-8{
+    width: calc(100%/3*2)
+}
 
 
 
