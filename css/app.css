@@ -88,7 +88,7 @@ main h1{
 
 
 * h2{
-    font-size: 44px;
+    font-size: 42px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -374,6 +374,17 @@ width: 100%;
 /* Business-Intro Section */
 
 
+.business-intro__title{
+    padding-left: 30px;
+}
+
+.business-intro__benefit .col-4 > *{
+    padding-bottom: 40px;
+}
+
+.business-intro__benefit .col-4{
+    padding: 20px;
+}
 
 
 
