@@ -55,9 +55,17 @@ img{
     width: calc(100%/3);
 }
 
-.col-30{
-    width: 30%;
+.col-7{
+   width: calc(100%/12*7); 
 }
+
+.col-5{
+    width: calc(100%/12*5);
+}
+
+
+
+
 
 
 
@@ -320,6 +328,24 @@ padding: 25px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* DEBUG */
 
 
@@ -348,6 +374,6 @@ padding: 25px;
 }  */
 
 
-.debug .purchase__card--horizontal__title{
+/* .debug .purchase__card--horizontal__title{
     min-width: 950px;
-}
+} */
