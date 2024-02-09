@@ -533,3 +533,9 @@ width: 100%;
 /* .debug .square{
     border: solid 1px rgb(41, 41, 41);
 } */
+
+
+.debug .business-trial .col-7, .col-5{
+    border: solid 1px black;    
+    min-height: 200px;
+}
