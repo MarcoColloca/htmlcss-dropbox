@@ -51,8 +51,8 @@ img{
 }
 
 
-.col-8{
-    width: calc(100%/3*2)
+.col-20{
+    width: calc(100%/5)
 }
 
 .col-4{
@@ -574,6 +574,48 @@ width: 100%;
 .faq .row .col-12:hover{
     background-color:#ece8e0;
 }
+
+
+
+
+
+/* FOOTER */
+
+
+
+footer .conteiner{
+    color: white;
+    font-family: sans-serif;
+}
+
+footer .col-20{
+    padding: 30px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+.footer-info h3{
+    margin-bottom: 20px;
+}
+
+.footer-info li{
+    margin-bottom: 15px;
+}
+
+
+.footer-language{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 30px;
+}
+
+
+.footer-language > *{
+    margin-right: 10px;
+}
+
+
+
 
 
 
