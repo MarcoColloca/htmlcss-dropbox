@@ -509,7 +509,7 @@ width: 100%;
 
 .business-clients__hyperlink{
     display: inline-block;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
     color: blue;
     text-decoration: underline;
 }
