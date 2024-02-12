@@ -460,14 +460,20 @@ width: 100%;
 
 
 
-/* Clients Section */
+/* Business-Clients Section */
  
+
+.business-clients{
+    padding-top: 100px;
+}
+
 .business-clients__title{
    padding-bottom: 50px;
+   max-width: 60%;
 }
 
 .business-clients__hyperlink{
-    display: block;
+    display: inline-block;
     padding-bottom: 100px;
     color: blue;
     text-decoration: underline;
