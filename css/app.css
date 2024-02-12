@@ -253,17 +253,20 @@ nav .row{
 }
 
 .hero__title{
-    padding: 65px 0;
+    padding-top: 65px;
 }
 
 
-
+.hero__content .row img{
+    transform: translateY(80px);
+}
 
 .hero .col-4{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
+    padding-top: 80px;
     gap: 20px;
 }
 
@@ -278,6 +281,7 @@ nav .row{
 
 .purchase{
     margin-bottom: 40px;
+    padding-top: 100px;
 }
 
 /* Title */
