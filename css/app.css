@@ -481,6 +481,8 @@ width: 100%;
 
 .square .col-12{
     padding: 0 50px;
+    max-height: 100%;
+    overflow: hidden;
 }
 
 
