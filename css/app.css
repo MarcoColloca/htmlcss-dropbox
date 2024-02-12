@@ -497,7 +497,7 @@ width: 100%;
     border: solid #d1e9cd 20px;
 }
 
-.square .col-6{
+.business-clients--logos .square .col-6{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,15 +505,20 @@ width: 100%;
 }
 
 
-.square .col-12{
+.business-clients--logos .square .col-12{
     padding: 0 50px;
     max-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    row-gap: 60px;
 }
 
 
-.business-clients--logos .square .col-12 > *{
-    padding: 40px 0;
+.business-clients--logos .square .col-12 img{
+    max-width: 200px;
+    max-height: 120px;
 }
 
 
@@ -522,7 +527,19 @@ width: 100%;
     padding-bottom: 0;
 }
 
+.business-clients--logos .square .col-12 hr{
+    width: 100px;
+    border-bottom: 0px;
+    border-color: rgb(189, 189, 189, 0.7);
+}
 
+.bbb::before{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 40px;
+    background-color: black;
+}
 
 
 /* Business-trial Section */
