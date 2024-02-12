@@ -519,6 +519,7 @@ width: 100%;
 
 .business-clients--logos{
     display: flex;
+    padding: 0;
 }
 
 
@@ -577,6 +578,11 @@ width: 100%;
 
 
 /* Business-trial Section */
+
+.business-trial{
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
 .business-trial .conteiner-sm .row{
     padding: 100px 50px;
