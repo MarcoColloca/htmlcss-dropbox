@@ -638,10 +638,9 @@ footer .conteiner{
     font-family: sans-serif;
 }
 
-footer .col-20{
-    padding: 30px;
-    margin-top: 20px;
-    padding-bottom: 100px;
+footer .footer-info .row{
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .footer-info h3{
@@ -657,7 +656,7 @@ footer .col-20{
 .footer-language{
     display: flex;
     justify-content: flex-start;
-    padding: 40px 30px;
+    padding: 40px 20px;
 }
 
 
