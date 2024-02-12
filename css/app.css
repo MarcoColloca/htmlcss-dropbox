@@ -173,7 +173,10 @@ main h1{
     background-color: black;
 }
 
-
+.buy-now{
+    color: #1100ff;
+    text-decoration: underline;
+}
 
 /* HEADER */
 
@@ -315,16 +318,39 @@ nav .row{
     padding: 10px 35px;
 }
 
+.purchase__card--vertical__body::after{
+    content: "";
+    height: 1px;
+    width: 40px;
+    display: block;
+    background-color: rgb(124, 124, 124);
+}
+
+.purchase__card--vertical__bonus-list li{
+    display: flex;
+    gap: 7px;
+}
+
 .purchase__card--vertical__description{
     border-right: solid 1px grey;
     border-left: solid 1px grey;
     border-bottom: solid 1px grey;
     padding: 0px 25px;
+    padding-bottom: 40px;
     flex-grow: 1;
+}
+
+.purchase__card--vertical__description h5{
+    margin-bottom: 15px;
 }
 
 .purchase__card--vertical__description i{
 color: #0061ff;
+}
+
+.purchase__card--vertical__description__list li{
+    display: flex;
+    gap: 7px;
 }
 
 /* Horizontal Card */
@@ -576,7 +602,6 @@ width: 100%;
 .faq .row .col-12:hover{
     background-color:#ece8e0;
 }
-
 
 
 

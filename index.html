@@ -88,29 +88,35 @@
 
 
         <section class="purchase">
+            <!-- Purchase Title -->
             <div class="purchase__title conteiner-sm">
                 <h2>Trova il piano business che fa per te</h2>
             </div>
 
+            <!-- Tadio Imput -->
             <div class="purchase__select conteiner-sm">
                 <ul>
                     <li>
-                        <input type="radio" name="payment"> Fatturazione mensile
+                        <input type="radio" id="payment-month" name="payment"> 
+                        <label for="payment-month">Fatturazione mensile</label>
                     </li>
                     <li>
-                        <input type="radio" name="payment"> Fatturazione annuale
+                        <input type="radio" id="payment-year" name="payment"> 
+                        <label for="payment-year">Fatturazione annuale</label>
                     </li>
                 </ul>
             </div>
 
             <div class="purchase__cards conteiner-sm">
                 <div class="row">
-                    <!-- Card 1 -->
+                    <!-- Vertical Card 1 -->
                     <div class="purchase__card--vertical col-4">
+                        
                         <div class="purchase__card--vertical__title">
                             <p><i class="fa-solid fa-user"></i>Singolo</p>
                         </div>
 
+                        <!-- Vertical Card 1 Promotion -->
                         <div class="purchase__card--vertical__body">
                             <div>
                                 <h3> Professional </h3>
@@ -120,46 +126,61 @@
                                 <p>/mese</p> 
                             </div>
                             
+                            <!-- Vertical Card 1 Bonus -->
                             <div>
-                                <p><i class="fa-solid fa-user"></i> <span>1 Utente</span> </p>
+                                <ul class="purchase__card--vertical__bonus-list">
+                                    <li>
+                                        <i class="fa-solid fa-user"></i>
+                                        <p>1 Utente</p>
+                                    </li>
 
-                                <p><i class="fa-solid fa-folder"></i> 5TB di spazio di archiviazione sicuro</p>
+                                    <li>
+                                        <i class="fa-solid fa-folder"></i>
+                                        <p>5TB di spazio di archiviazione sicuro</p>
+                                    </li>
 
-                                <p><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                    <li>
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                    </li>
+                                </ul>
                             </div>
                             
-
+                            <!-- Vertical Card 1 Button -->
                             <div class="purchase__card--vertical__button">
                                 <a href="#" class="button">
-                                    
                                     Prova gratis per 30 giorni
-                                    
                                 </a>
 
-                                <p>oppure <span class="color-blue decor-underline">acquista ora</span></p>
+                                <p>oppure <a href="#" class="buy-now">acquista ora</a></p>
                             </div>
                         </div>
 
                         <div class="purchase__card--vertical__description">
+                            <!-- Vertical Card 1 Bonus Description -->
                             <h5>Punti salienti del piano</h5>
-                            <ul>
+                            <ul class="purchase__card--vertical__description__list">
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Fino a 100GB con Dropbox Transfer</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p>Fino a 100GB con Dropbox Transfer</p>
                                 </li>
 
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p>Cartelle offline su dispositivi mobili</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
+                    <!-- Vertical Card 2 -->
                     <div class="purchase__card--vertical col-4">
+                        <!-- Vertical Card 2 Title -->
                         <div class="purchase__card--vertical__title">
                             <p><i class="fa-solid fa-users"></i>Team</p>
                         </div>
 
+                        <!-- Vertical Card 2 Promotion -->
                         <div class="purchase__card--vertical__body">
                             <div>
                                 <h3> Advanced </h3>
@@ -168,59 +189,78 @@
 
                                 <p>/utente/mese</p> 
                             </div>
-                            
+
+                            <!-- Vertical Card 2 Bonus -->
                             <div>
-                                <p><i class="fa-solid fa-user"></i> <span>3 o più utenti</span> </p>
+                                <ul class="purchase__card--vertical__bonus-list">
+                                    <li>
+                                        <i class="fa-solid fa-user"></i>
+                                        <p>3 o più utenti</p>
+                                    </li>
 
-                                <p><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                    <li>
+                                        <i class="fa-solid fa-folder"></i>
+                                        <p>Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                    </li>
 
-                                <p><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
+                                    <li>
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
+                                    </li>
+                                </ul>
                             </div>
                             
-
+                            <!-- Vertical Card 2 Button -->
                             <div class="purchase__card--vertical__button">
                                 <a href="#" class="button">
-                                    
                                     Prova gratis per 30 giorni
-                                    
                                 </a>
 
-                                <p>oppure <span class="color-blue decor-underline">acquista ora</span></p>
+                                <p>oppure <a href="#" class="buy-now">acquista ora</a></p>
                             </div>
                         </div>
 
                         <div class="purchase__card--vertical__description">
+                            <!-- Vertical Card 2 Bonus Description -->
                             <h5>Punti salienti del piano</h5>
-                            <ul>
+                            <ul class="purchase__card--vertical__bonus-list">
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p> Nessun limite di spazio per i file</p>
                                 </li>
 
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p> Cartelle offline su dispositivi mobili</p>
                                 </li>
 
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Risparmio del 50% ripsetto alle iscrizioni singole</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p> Risparmio del 50% ripsetto alle iscrizioni singole</p>
                                 </li>
 
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri nel team</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p> Possibilità di inserire nuovi membri nel team</p>
                                 </li>
 
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p> Gestione dei permessi in base ai ruoli</p>
                                 </li>
+                                
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Card 3 -->
+                    <!-- Vertical Card 3 -->
                     <div class="purchase__card--vertical col-4">
+                        <!-- Vertical Card 3 Title -->
                         <div class="purchase__card--vertical__title">
                             <p><i class="fa-solid fa-building"></i>Azienda</p>
                         </div>
 
+                        <!-- Vertical Card 3 Promotion -->
                         <div class="purchase__card--vertical__body">
                             <div>
                                 <h3> Enterprise </h3>
@@ -230,62 +270,82 @@
                                 <p>-</p> 
                             </div>
                             
+                            <!-- Vertical Card 3 Bonus -->
                             <div>
-                                <p><i class="fa-solid fa-user"></i> <span>10 o più utenti</span> </p>
-
-                                <p><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</p>
-
-                                <p><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
+                                <div>
+                                    <ul class="purchase__card--vertical__bonus-list">
+                                        <li>
+                                            <i class="fa-solid fa-user"></i>
+                                            <p>10 o più utenti</p>
+                                        </li>
+    
+                                        <li>
+                                            <i class="fa-solid fa-folder"></i>
+                                            <p>Soluzioni personalizzabili per la tua azienda</p>
+                                        </li>
+    
+                                        <li>
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <p>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             
-
+                            <!-- Vertical Card 3 Button -->
                             <div class="purchase__card--vertical__button">
                                 <a href="#" class="button">
-                                    
                                     Prova gratis per 30 giorni
-                                    
                                 </a>
 
-                                <p>oppure <span class="color-blue decor-underline">acquista ora</span></p>
+                                <p>oppure <a class="buy-now" href="#">acquista ora</a><p> 
                             </div>
                         </div>
 
                         <div class="purchase__card--vertical__description">
+                            <!-- Vertical Card 3 Bonus Description -->
                             <h5> Punti salienti del piano</h5>
-                            <ul>
+                            <ul class="purchase__card--vertical__description__list">
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p> Cartelle offline su dispositivi mobili</p>
                                 </li>
 
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p> Servizio assistenza 24/h</p>
                                 </li>
 
                                 <li>
-                                    <p><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</p>
+                                    <i class="fa-solid fa-check"></i>
+                                    <p> Possibilità di personalizzazione totale</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Card 4 -->
+                    <!-- Horizontal Card 1 -->
                     <div class="purchase__card--horizontal col-12">
+                        <!-- Horizontal Card 1 Title -->
                         <div class="purchase__card--horizontal__title">
                             <p><i class="fa-solid fa-building"></i>Team</p>
                         </div>
 
                         <div class="purchase__card--horizontal__body">
+                            <!-- Horizontal Card 1 Promotion -->
                             <div class="purchase__card--horizontal__body__text">
                                 <h3>Enterprise</h3>
                                 <h5>Contatta l'ufficio vendite per i prezzi</h5>
                             </div>
 
+                            <!-- Horizontal Card 1 Button -->
                             <div class="purchase__card--horizontal__button">
                                 <a href="#" class="button">Contatta l'ufficio vendite</a>
                             </div>
                         </div>
 
                         <div class="purchase__card--horizontal__description">
+                            <!-- Horizontal Card 1 Description -->
                             <p class="col-8">
                                 Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
                             </p>
