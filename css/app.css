@@ -614,7 +614,8 @@ width: 100%;
 /* FAQ Section */
 
 .faq{
-    margin: 200px 0;
+    margin-bottom: 200px;
+    margin-top: 150px;
 }
 
 
