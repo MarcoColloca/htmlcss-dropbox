@@ -672,6 +672,11 @@ footer .conteiner{
     font-family: sans-serif;
 }
 
+footer .footer-info{
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+
 footer .footer-info .row{
     justify-content: space-between;
     padding: 0 20px;
@@ -687,18 +692,25 @@ footer .footer-info .row{
 }
 
 
-.footer-language{
+.footer-language .row .col-12{
     display: flex;
     justify-content: flex-start;
-    padding: 40px 20px;
+    padding: 10px 20px;
 }
 
 
-.footer-language > *{
+.footer-language .row .col-12 > *{
     margin-right: 10px;
 }
 
-
+.footer-language::before{
+    content: '';
+	width: 130px;
+	height: 1px;
+    margin: 20px;
+	background-color: #bcbcbc;
+	display: block;
+}
 
 
 
